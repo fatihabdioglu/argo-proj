@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/bin/bash
 
 # exit when any command fails
@@ -28,6 +29,8 @@ cd $tmp_dir
 git add .
 git commit -m "Update image to $new_ver"
 git push
+=======
+>>>>>>> 3b8ce7df5c314fe370558eed6ac43a61557dfd65
 
 # Optionally on build agents - remove folder
 rm -rf $tmp_dir
